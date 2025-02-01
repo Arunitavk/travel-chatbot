@@ -12,8 +12,20 @@ body {
 
 /* Title */
 h2 {
+    font-size: 50px;
+    font-style: inherit ;
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+h2::before {
+    content: "";
+    width: 100px; /* Adjust as needed */
+    height: 100px;
+    background: url("geneie.jpg") no-repeat center/contain;
 }
 
 /* Chatbox */
