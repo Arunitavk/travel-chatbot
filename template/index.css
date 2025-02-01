@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -10,7 +10,7 @@ body {
     background-attachment: fixed;
 }
 
-/* Title */
+
 h2 {
     font-size: 50px;
     font-style: inherit ;
@@ -23,15 +23,15 @@ h2 {
 }
 h2::before {
     content: "";
-    width: 100px; /* Adjust as needed */
+    width: 100px; 
     height: 100px;
     background: url("geneie.jpg") no-repeat center/contain;
 }
 
 /* Chatbox */
 #chatbox {
-    width: 80%;
-    max-width: 500px;
+    width: 90%;
+    max-width: 800px;
     height: 400px;
     margin: 20px auto;
     border: 1px solid #ddd;
@@ -45,14 +45,17 @@ h2::before {
 }
 
 /* Messages */
+
 .message {
     padding: 10px;
     margin: 5px;
     border-radius: 10px;
-    max-width: 75%;
+    max-width: 75%; 
     word-wrap: break-word;
     display: inline-block;
 }
+
+
 
 .bot {
     background-color: #e3f2fd;
@@ -71,7 +74,7 @@ h2::before {
 
 /* Input and Button */
 #userInput {
-    width: 70%;
+    width: 50%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -92,11 +95,17 @@ button:hover {
 }
 
 /* Scrollbar */
+
 #chatbox::-webkit-scrollbar {
     width: 6px;
+   
 }
+
 
 #chatbox::-webkit-scrollbar-thumb {
     background-color: #007BFF;
     border-radius: 5px;
 }
+
+
+
