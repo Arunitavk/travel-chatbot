@@ -4,7 +4,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    background-image: url('template/travel2.jpg'); 
+    background-image: url('./travel2.jpg'); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -25,7 +25,7 @@ h2::before {
     content: "";
     width: 100px; 
     height: 100px;
-    background: url("template/geneie.jpg") no-repeat center/contain;
+    background: url("./geneie.jpg") no-repeat center/contain;
 }
 
 /* Chatbox */
