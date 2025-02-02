@@ -10,7 +10,7 @@
 - Member 3: Hridya Madhu - Model Engineering College
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+https://arunitavk.github.io/travel-chatbot/
 
 ### Project Description
 The project is a Travel Planning Chatbot that helps users plan trips by suggesting attractions, accommodations and route. It also integrates real time updates for weather, traffic etc.
