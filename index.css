@@ -1,0 +1,111 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('travel2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+h2 {
+    font-size: 50px;
+    font-style: inherit ;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+h2::before {
+    content: "";
+    width: 100px; 
+    height: 100px;
+    background: url("geneie.jpg") no-repeat center/contain;
+}
+
+/* Chatbox */
+#chatbox {
+    width: 90%;
+    max-width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Messages */
+
+.message {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    max-width: 75%; 
+    word-wrap: break-word;
+    display: inline-block;
+}
+
+
+
+.bot {
+    background-color: #e3f2fd;
+    align-self: flex-start;
+}
+
+.user {
+    background-color: #c8e6c9;
+    align-self: flex-end;
+}
+
+.error {
+    background-color: #ffcccc;
+    color: #d32f2f;
+}
+
+/* Input and Button */
+#userInput {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-left: 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Scrollbar */
+
+#chatbox::-webkit-scrollbar {
+    width: 6px;
+   
+}
+
+
+#chatbox::-webkit-scrollbar-thumb {
+    background-color: #007BFF;
+    border-radius: 5px;
+}
+
+
+
